@@ -1,16 +1,9 @@
-#HTTP Server
 server:
   port: 8761
 
-#Discovery Server Acces
 eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
     server:
        waitTimeInMsWhenSyncEmpty: 0
-       
-#Spring configuration
-spring:
-  application:
-    name: eureka-server  
