@@ -20,6 +20,8 @@ spring:
   application:
     name: servicio.cesta
 
+
+#Actuador Hystrix stream
 management.endpoints.web.exposure.include: hystrix.stream
       
       
