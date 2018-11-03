@@ -1,7 +1,7 @@
 # HTTP Server
 server:
   port: 6666
-  
+
 #Discovery Server Acces
 eureka:
   client:
@@ -9,9 +9,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 
-turbine:
-  aggregator:
-    clusterConfig: servicio.cesta
-  appConfig: servicio.cesta
-  amqp:
-    port: 5672
+# turbine:
+#   aggregator:
+#     clusterConfig: servicio.cesta
+#   appConfig: servicio.cesta
+#   amqp:
+#     port: 5672
