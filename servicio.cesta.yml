@@ -19,6 +19,8 @@ eureka:
 spring:
   application:
     name: servicio.cesta
+
+management.endpoints.web.exposure.include: *
       
       
 #------------------------------------- CONEXION BASE DE DATOS ---------------------------------------------
