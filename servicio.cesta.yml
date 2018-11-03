@@ -20,7 +20,7 @@ spring:
   application:
     name: servicio.cesta
 
-management.endpoints.web.base-path: /
+management.endpoints.web.exposure.include: hystrix.stream
       
       
 #------------------------------------- CONEXION BASE DE DATOS ---------------------------------------------
