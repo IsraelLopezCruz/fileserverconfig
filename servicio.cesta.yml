@@ -22,7 +22,7 @@ spring:
 
 
 #Actuador Hystrix stream
-#management.endpoints.web.exposure.include: hystrix.stream
+management.endpoints.web.exposure.include: hystrix.stream
       
       
 #------------------------------------- CONEXION BASE DE DATOS ---------------------------------------------
