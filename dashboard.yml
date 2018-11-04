@@ -1,0 +1,21 @@
+#HTTP Server
+server: 
+  port: 7777
+    
+#Discovery Server Acces
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+      
+
+#Spring configuration
+spring:
+  application:
+    name: dashboard 
+
+#Configuracion Turbine
+turbine:
+  aggregator:
+    clusterConfig: SERVICIO.CESTA
+  appConfig: servicio.cesta
