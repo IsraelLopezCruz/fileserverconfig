@@ -19,7 +19,12 @@ eureka:
 spring:
   application:
     name: servicio.catalogo    
-      
+
+#Servidor UAA
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:9999/user
  
 #------------------------------------- CONEXION BASE DE DATOS ---------------------------------------------
 spring.datasource:
