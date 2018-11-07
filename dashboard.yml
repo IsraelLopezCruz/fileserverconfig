@@ -19,3 +19,9 @@ turbine:
   aggregator:
     clusterConfig: SERVICIO.CESTA
   appConfig: servicio.cesta
+  
+#Servidor UAA
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:9999/user
